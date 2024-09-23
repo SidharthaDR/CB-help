@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>13. Regular Expressions</h1>
+    <h2>Task 2: Create a script that uses a regular expression to find all instances of a specific word in a sentence and replaces them with another word.</h2>
+    
+    <p>Original Sentence: </p>
+    <p id="originalSentence">The quick brown fox jumps over the lazy dog. The fox is quick and smart.</p>
+
+    <label for="findWord">Find Word:</label>
+    <input type="text" id="findWord" placeholder="Enter the word to find">
+
+    <label for="replaceWord">Replace With:</label>
+    <input type="text" id="replaceWord" placeholder="Enter the word to replace with">
+
+    <button onclick="replaceWord()">Replace Word</button>
+
+    <p><strong>Modified Sentence:</strong></p>
+    <p id="modifiedSentence"></p>
+
+
+    <script src="task2.js"></script>
+</body>
+</html>
