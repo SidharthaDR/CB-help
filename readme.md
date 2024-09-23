@@ -2,8 +2,11 @@ Three Subjects were covered from JavaScript, from document. Numbered and listed 
 
 9. JavaScript Strings
     • Task 1: Write a script that creates a string object and uses different string methods (e.g., length, toUpperCase, indexOf). Log the results.
+
     • Task 2: Create a script that takes a sentence as input and reverses the string using JavaScript string methods.
+    
     • Task 3: Implement a function that checks if a given substring is present within a string and returns the index of its first occurrence.
+    
     • Task 4: Write a script that compares two strings and logs whether they are equal or not. If not, log the differences.
 
 11. DOM Manipulation
