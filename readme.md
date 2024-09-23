@@ -1,6 +1,6 @@
 Three Subjects were covered from JavaScript, from document. Numbered and listed below as per document.
 
-9. JavaScript Strings
+9. JavaScript Strings:
 
     • Task 1: Write a script that creates a string object and uses different string methods (e.g., length, toUpperCase, indexOf). Log the results.
 
@@ -10,7 +10,7 @@ Three Subjects were covered from JavaScript, from document. Numbered and listed 
     
     • Task 4: Write a script that compares two strings and logs whether they are equal or not. If not, log the differences.
 
-10. DOM Manipulation
+10. DOM Manipulation:
 
     • Task 1: Write a script that selects an HTML element by its ID and changes its content to "Hello, World!" using JavaScript.
 
@@ -20,7 +20,7 @@ Three Subjects were covered from JavaScript, from document. Numbered and listed 
 
     • Task 4: Write a script that animates an HTML element by gradually changing its position on the page using setInterval.
 
-11. Regular Expressions
+11. Regular Expressions:
     
     • Task 1: Write a regular expression that matches valid email addresses. Test it against a list of strings and display which ones are valid.
     
