@@ -1,28 +1,17 @@
-var button1 = document.getElementById(btn1)
-
-// Function to check if a substring is present in a string
-function findSubstring(mainString, substring) {
-
-    let mainString = button1.onclick =  prompt("Enter the main string:");
-    let substring = prompt("Enter the substring to search for:");
-
-    // Use indexOf to find the first occurrence of the substring
-    let index = mainString.indexOf(substring);
-
-    console.log(index)
-    // Check if the substring was found
-    // If result of index is -1, then substring is absent   
-    if (index !== -1) {
-        return `The substring '${substring}' was found at index: ${index}`;
-    } else {
-        return `The substring '${substring}' was not found.`;
+function checkSubstring() {
+    const mainString = prompt("Please enter any string:");
+    const substring = prompt(`YOUR STRING: ${mainString} \n\nPlease enter the substring to search for:`);
+    
+    if (substring === null) {
+        // User canceled the prompt
+        document.getElementById("result").innerText = "Search canceled.";
+        return;
     }
 
+    const index = mainString.indexOf(substring);
+    if (index !== -1) {
+        document.getElementById("result").innerText = `Substring found at index: ${index}`;
+    } else {
+        document.getElementById("result").innerText = "Substring not found.";
+    }
 }
-
-button1.onclick = findSubstring()
-// Find and log the result
-// let result = findSubstring(mainString, substring);
-// console.log(result);
-
-
