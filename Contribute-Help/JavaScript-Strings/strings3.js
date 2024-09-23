@@ -9,6 +9,7 @@ function findSubstring(mainString, substring) {
     // Use indexOf to find the first occurrence of the substring
     let index = mainString.indexOf(substring);
 
+    console.log(index)
     // Check if the substring was found
     // If result of index is -1, then substring is absent   
     if (index !== -1) {
@@ -21,7 +22,7 @@ function findSubstring(mainString, substring) {
 
 button1.onclick = findSubstring()
 // Find and log the result
-let result = findSubstring(mainString, substring);
-console.log(result);
+// let result = findSubstring(mainString, substring);
+// console.log(result);
 
 
