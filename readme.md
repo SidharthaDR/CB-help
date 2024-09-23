@@ -1,4 +1,4 @@
-Three Subjects were covered from JavaScript, from document. Numbered and listed below as per document.
+Three Subjects were covered from JavaScript, from document. Numbered and listed below as per document. Numbers in Markdown are continious, actual numbers are 9, 11 and 13.
 
 9. JavaScript Strings:
 
